@@ -11,6 +11,7 @@ class Flight:
     -  rental_cost(float): The cost of rent at this destination. 
     """
     def __init__(self, destination, cost, rental_cost):
+        """ Creates a new Flight object. """
         self.destination = destination
         self.cost = cost
         self.rental_cost = rental_cost
